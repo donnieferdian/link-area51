@@ -4,7 +4,13 @@ div{
     width: 100%;
     text-align: center;
 }
+h2{
+    text-transform: capitalize;
+}
 
+a{
+    text-transform: capitalize;
+}
 .container {
     position: relative;
 
