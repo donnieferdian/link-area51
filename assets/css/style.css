@@ -78,3 +78,7 @@ html {
     color: rgb(0, 0, 0);
     font-size: 15px;
 }
+
+.footer > i > b {
+    font-weight: bold;
+}
