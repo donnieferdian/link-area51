@@ -1,38 +1,81 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    background-color: grey;
+    background-size: cover;
 }
 
-div{
-    position: absolute;
-    width: 100%;
-    text-align: center;
-}
-h1{
-    text-align: center;
-}
-
-h2{
-    text-transform: capitalize;
-}
-
-li{
-    margin: 5px 10px;
-
-}
-
-a{
-    text-transform: capitalize;
+html {
+    font-family: 'Inter', sans-serif;
 }
 .container {
-    margin: 0 auto;
-    position: relative;
     max-width: 500px;
-    height: 100vh;
+    margin: auto;
+    background: red;
+    width: 500px;
+    height: 100vh;    
 }
 
-.list-group-item > a{
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile > img {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 100%;
+    margin-bottom: -30px;
+
+}
+.profile > p {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content > a {
     text-decoration: none;
+    margin: 3px 10px;
+    padding: 5px;
     color: black;
-    font-size: 18px;
+    font-size: 24px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.content > p {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.content > a:hover {
+    background: aqua;
+
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer > i {
+    color: white;
+    font-size: 15px;
 }
