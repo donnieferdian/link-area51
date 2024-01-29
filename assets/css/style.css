@@ -30,7 +30,7 @@ html {
 
 }
 .profile > p {
-    font-size: 1.8em;
+    font-size: 1.125rem;
     font-weight: bold;
     color: rgb(0, 0, 0);
     text-transform: capitalize;
@@ -43,7 +43,7 @@ html {
     justify-content: center;
 }
 
-.content > a {
+/* .content > a {
     text-decoration: none;
     margin: 3px 10px;
     padding: 5px;
@@ -54,16 +54,16 @@ html {
     border: 3px solid #000000;
     border-radius: 8px;
     text-transform: capitalize;
-    font-weight: 500;
-}
+    font-weight: 600;
+} */
 
-.content > a:hover {
+/* .content > a:hover {
     background: aqua;
 
-}
+} */
 
 .content > p {
-    font-size: 1.8em;
+    font-size: 1rem;
     font-weight: bold;
     color: rgb(0, 0, 0);
     text-transform: capitalize;
